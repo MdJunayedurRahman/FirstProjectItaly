@@ -4,6 +4,7 @@
 .container-fluid {
   width: 100%;
   padding-left: 10px;
+  padding-bottom: 65px;
   margin-top: 10px;
   justify-content: flex-start;
   justify-items: flex-start;
