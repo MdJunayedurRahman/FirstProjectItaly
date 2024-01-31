@@ -6,17 +6,21 @@
   padding-left: 10px;
   padding-bottom: 65px;
   margin-top: 10px;
-  justify-content: flex-start;
-  justify-items: flex-start;
+  flex-direction: column;
 }
-.globe{
-padding-top: 20px;
-padding-left: 180px;
-height: 270px;
-width: 270px;
-font-weight: bolder;
-justify-items: center;
-justify-content: center;
+.info {
+  margin-top: 20px;
+}
+.infoHeader{
+  font-weight: bolder;
+}
+.shareCompany{
+  font-weight: bold;
+  justify-items: flex-end;
+}
+.sharePage {
+  font-weight: bold;
+  justify-content: flex-end;
 }
 footer .container {
   margin-top: 0;
