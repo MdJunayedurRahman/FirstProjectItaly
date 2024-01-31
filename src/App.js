@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -15,7 +15,6 @@ function App() {
    <>
    <Navbar />
    <Header />
-   <div className='container'>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />} />
@@ -25,7 +24,6 @@ function App() {
       <Route path="/Something" element={<Something />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
-   </div>
    <Footer />
    </>
   );
