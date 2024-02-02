@@ -6,19 +6,23 @@
   padding-left: 10px;
   padding-bottom: 65px;
   margin-top: 10px;
-  flex-direction: column;
+  flex-direction: row;
 }
 .info {
   margin-top: 20px;
+  flex-direction: column;
 }
 .infoHeader{
+ 
   font-weight: bolder;
 }
 .shareCompany{
+  margin-top: 20px;
   font-weight: bold;
   justify-items: flex-end;
 }
 .sharePage {
+  margin-top: 20px;
   font-weight: bold;
   justify-content: flex-end;
 }
@@ -45,7 +49,7 @@ footer {
 #header {
 display: grid;
 padding-top: 30px;
-padding-left: 10px;
+padding-left: 120px;
 font-weight: bold;
 width: 100%;
 }

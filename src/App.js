@@ -10,11 +10,13 @@ import ContactUs from './components/ContactUs';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import {Routes, Route} from 'react-router-dom';
+
 function App() {
   return (
    <>
    <Navbar />
    <Header />
+   <div className='container'>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />} />
@@ -24,6 +26,7 @@ function App() {
       <Route path="/Something" element={<Something />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
+    </div>
    <Footer />
    </>
   );
