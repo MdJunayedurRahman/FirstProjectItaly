@@ -1,12 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-<<<<<<< HEAD
-import { FaEnvelope, FaSearchLocation,FaFont } from "react-icons/fa";
-=======
 import { FaEnvelope, FaFont, FaSearchLocation } from "react-icons/fa";
->>>>>>> 5148c355d2ffc3f83ec19512b76177b744827117
 import { IconContext } from "react-icons";
-
 export default function Home() {
   const boxStyle = {
     width: "250px",
