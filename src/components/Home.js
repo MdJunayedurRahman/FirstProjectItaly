@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 export default function Home () {
     return (
         <div class="container-fluid">
-        
+    
         
 <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
   <>

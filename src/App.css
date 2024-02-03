@@ -28,6 +28,8 @@
 }
 footer .container {
   margin-top: 0;
+  font-weight: bolder;
+  justify-items: flex-end;
 }
 footer {
   position: fixed;
