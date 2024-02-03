@@ -1,16 +1,16 @@
 import React from 'react';
-import {FaGlobe,FaEnvelope,FaUser, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa'
+import {FaEnvelope, FaSearchLocation, FaBuilding} from 'react-icons/fa'
 import { IconContext } from "react-icons";
 
 export default function Home () {
     return (
         <div class="container-fluid">
-        
+    
         
 <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
   <>
-    <FaGlobe />
-   Agency
+    <FaBuilding />
+   About
   </>
 </IconContext.Provider>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find Out More</button>
@@ -19,15 +19,15 @@ export default function Home () {
           <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
   <>
     <FaEnvelope />
-   Contact Us
+   Contacts
   </>
 </IconContext.Provider>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find Out More</button>
 
                 <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
   <>
-    <FaUser />
-   Who we Are
+    <FaSearchLocation />
+   Location
   </>
 </IconContext.Provider>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find Out More</button>
@@ -44,24 +44,7 @@ export default function Home () {
     SECTOR: Ecology and Thermotechnics
     CATEGORY: Cleaning Companies
     Cookie Preferences
-          </div>
-<div class='shareCompany'>
-Share Company:
-    <FaFacebook/>
-    <FaTwitter/>
-    <FaInstagram/>
-    <FaLinkedin/>
-    <FaWhatsapp/>
-</div>
-<div class='sharePage'>
-    Share Page:
-    <FaFacebook/>
-    <FaTwitter/>
-    <FaInstagram/>
-    <FaLinkedin/>
-    <FaWhatsapp/>
-</div>
-         
+          </div> 
       </div>
 
 

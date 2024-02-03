@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Action() {
+export default function Contacts () {
     return (
         <div>
-            This is Action page
+            This is ContactUs page
         </div>
     )
 }

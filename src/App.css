@@ -16,18 +16,11 @@
  
   font-weight: bolder;
 }
-.shareCompany{
-  margin-top: 20px;
-  font-weight: bold;
-  justify-items: flex-end;
-}
-.sharePage {
-  margin-top: 20px;
-  font-weight: bold;
-  justify-content: flex-end;
-}
+
 footer .container {
   margin-top: 0;
+  font-weight: bolder;
+  justify-items: flex-end;
 }
 footer {
   position: fixed;
