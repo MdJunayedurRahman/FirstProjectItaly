@@ -6,6 +6,7 @@
   padding-left: 10px;
   padding-bottom: 65px;
   margin-top: 10px;
+  font-weight: bolder;
   flex-direction: row;
 }
 .info {
@@ -15,6 +16,14 @@
 .infoHeader{
  
   font-weight: bolder;
+}
+.Contacts {
+  width: 100%;
+    padding-left: 10px;
+    padding-bottom: 65px;
+    margin-top: 10px;
+    flex-direction: column;
+
 }
 
 footer .container {
