@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaEnvelope, FaSearchLocation, FaBuilding } from "react-icons/fa";
+import { FaEnvelope, FaSearchLocation,FaFont } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 export default function Home() {
@@ -31,7 +31,7 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaBuilding />
+                <FaFont />
                 <p>About</p>
               </>
             </IconContext.Provider>
