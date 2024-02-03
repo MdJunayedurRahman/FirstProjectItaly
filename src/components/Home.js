@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaEnvelope, FaSearchLocation, FaBuilding } from "react-icons/fa";
+import { FaEnvelope, FaFont, FaSearchLocation } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
 export default function Home() {
   const boxStyle = {
-    width: "200px",
-    height: "200px",
+    width: "250px",
+    height: "250px",
     border: "1px solid #ccc",
     padding: "10px",
     backgroundColor: "green",
@@ -15,11 +15,14 @@ export default function Home() {
     alignItems: "center",
     justifyContent: "center",
     textAlign: "center",
-    marginBottom: "20px", // Add margin between boxes
+    marginBottom: "20px",
+    // Add margin between boxes
+    marginRight: "30px",
+    marginLeft: "45px",
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid d-flex justify-content-center align-items-center flex-column">
       <Link className="nav-link" to="/">
         Civil and industrial cleaning. Painting, clearing of cellars and
         warehouses. Move.
@@ -31,7 +34,7 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaBuilding />
+                <FaFont />
                 <p>About</p>
               </>
             </IconContext.Provider>
