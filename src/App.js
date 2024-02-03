@@ -9,6 +9,7 @@ import Something from './components/Something';
 import ContactUs from './components/ContactUs';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
+import WhereWeAre from './components/WhereWeAre';
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path="/Action" element={<Action />} />
       <Route path="/Another" element={<Another />} />
       <Route path="/Something" element={<Something />} />
+      <Route path="/WhereWeAre" element={<WhereWeAre />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
     </div>
