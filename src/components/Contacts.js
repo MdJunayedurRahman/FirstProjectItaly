@@ -50,7 +50,7 @@ const Contact = () => {
         <label>Email</label>
         <input type="email" name="user_email" />
         <label>Phone</label>
-        <input type="email" name="user_phone" />
+        <input type="phone" name="user_phone" />
         <label>Message</label>
         <textarea name="message" />
         <input type="submit" value="Send" />
