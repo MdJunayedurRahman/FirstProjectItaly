@@ -41,6 +41,9 @@ export default function Home() {
             <button
               className="btn btn-outline-dark text-white my-2 my-sm-0"
               type="submit"
+               onClick={() => {
+                window.location.href = "/About";
+              }}
             >
               Find Out More
             </button>
@@ -60,6 +63,9 @@ export default function Home() {
             <button
               className="btn btn-outline-dark text-white my-2 my-sm-0"
               type="submit"
+              onClick={() => {
+                window.location.href = "/Contacts";
+              }}
             >
               Find Out More
             </button>
