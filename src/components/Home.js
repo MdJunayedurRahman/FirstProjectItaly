@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaGlobe,FaEnvelope,FaUser, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp, FaSearchLocation} from 'react-icons/fa'
+import {FaEnvelope, FaSearchLocation, FaBuilding} from 'react-icons/fa'
 import { IconContext } from "react-icons";
 
 export default function Home () {
@@ -9,8 +9,8 @@ export default function Home () {
         
 <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
   <>
-    <FaGlobe />
-   Agency
+    <FaBuilding />
+   About
   </>
 </IconContext.Provider>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find Out More</button>
