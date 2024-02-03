@@ -19,7 +19,7 @@ export default function Home () {
           <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
   <>
     <FaEnvelope />
-   Contact Us
+   Contacts
   </>
 </IconContext.Provider>
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Find Out More</button>
