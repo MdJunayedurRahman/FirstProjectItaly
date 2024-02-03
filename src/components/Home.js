@@ -44,24 +44,7 @@ export default function Home () {
     SECTOR: Ecology and Thermotechnics
     CATEGORY: Cleaning Companies
     Cookie Preferences
-          </div>
-<div class='shareCompany'>
-Share Company:
-    <FaFacebook/>
-    <FaTwitter/>
-    <FaInstagram/>
-    <FaLinkedin/>
-    <FaWhatsapp/>
-</div>
-<div class='sharePage'>
-    Share Page:
-    <FaFacebook/>
-    <FaTwitter/>
-    <FaInstagram/>
-    <FaLinkedin/>
-    <FaWhatsapp/>
-</div>
-         
+          </div> 
       </div>
 
 
