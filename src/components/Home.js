@@ -41,7 +41,7 @@ export default function Home() {
             <button
               className="btn btn-outline-dark text-white my-2 my-sm-0"
               type="submit"
-               onClick={() => {
+              onClick={() => {
                 window.location.href = "/About";
               }}
             >
@@ -93,14 +93,6 @@ export default function Home() {
             </button>
           </div>
         </div>
-      </div>
-
-      <div className="info">
-        <div className="infoHeader">Info/Bio</div>
-        Mr Pathan Sas Via del Pilastro 15-6, 40127 Bologna (Bologna) Telephone:
-        +39 3292121210 VAT number: 02823441205 NETWORK: 148895.reteimprese.org
-        SECTOR: Ecology and Thermotechnics CATEGORY: Cleaning Companies Cookie
-        Preferences
       </div>
     </div>
   );

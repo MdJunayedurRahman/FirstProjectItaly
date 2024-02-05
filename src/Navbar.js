@@ -6,7 +6,15 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-success position-sticky">
       <div className="container">
         <Link className="navbar-brand fs-1 fst-italic mr-auto" to="/">
-          SPA Example
+          <img
+            style={{
+              width: "80px",
+              height: "80px",
+              borderRadius: "40%",
+            }}
+            src="logo.jpg"
+            alt="logo"
+          />
         </Link>
 
         <button
