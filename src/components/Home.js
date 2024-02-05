@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaEnvelope, FaFont, FaSearchLocation } from "react-icons/fa";
 import { IconContext } from "react-icons";
-
 export default function Home() {
   const boxStyle = {
     width: "250px",
@@ -34,7 +33,9 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaFont />
+                <FaFont onClick={() => {
+                window.location.href = "/About";
+              }}/>
                 <p>About</p>
               </>
             </IconContext.Provider>
@@ -56,7 +57,9 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaEnvelope />
+                <FaEnvelope onClick={() => {
+                window.location.href = "/Contacts";
+              }}/>
                 <p>Contacts</p>
               </>
             </IconContext.Provider>
@@ -78,8 +81,10 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaSearchLocation />
-                <p>Location</p>
+                <FaSearchLocation onClick={() => {
+                window.location.href = "/Location";
+              }}/>
+                <p>Location </p>
               </>
             </IconContext.Provider>
             <button
