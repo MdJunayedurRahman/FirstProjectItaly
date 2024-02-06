@@ -21,14 +21,8 @@ export default function Home() {
 
   return (
     <div className="container-fluid d-flex justify-content-center align-items-center flex-column">
-      <div
-        className="row"
-        style={{
-          marginTop: "20px",
-          marginBottom: "30px",
-        }}
-      >
-        <div className="col-lg-6">
+      <div className="row" style={{ marginTop: "10px", marginBottom: "30px" }}>
+        <div className="col-lg-6 mb-3 mb-lg-0">
           <img
             src="cleaning.jpg"
             alt="cleaning"
@@ -45,12 +39,13 @@ export default function Home() {
           />
         </div>
       </div>
+
       <div
         className="row"
         style={{
           marginTop: "20px",
           marginBottom: "30px",
-          fontSize: "30px",
+          fontSize: "25px",
           fontWeight: "bold",
           alignItems: "center",
           justifyContent: "center",
@@ -63,7 +58,7 @@ export default function Home() {
         <div className="text-success">Chiamaci ora</div>
         <div className="text-success">RAHMAN TAREQUR</div>
       </div>
-      <div className="row">
+      <div className="row" style={{ marginBottom: "20px" }}>
         <div className="col-lg-4 col-md-6 mb-3">
           <div className="bg-success" style={boxStyle}>
             <IconContext.Provider
@@ -75,7 +70,7 @@ export default function Home() {
                     window.location.href = "/About";
                   }}
                 />
-                <p>About</p>
+                <p>Chi Siamo</p>
               </>
             </IconContext.Provider>
             <button
@@ -85,7 +80,7 @@ export default function Home() {
                 window.location.href = "/About";
               }}
             >
-              Find Out More
+              SCOPRI DI PIÙ
             </button>
           </div>
         </div>
@@ -101,7 +96,7 @@ export default function Home() {
                     window.location.href = "/Contacts";
                   }}
                 />
-                <p>Contacts</p>
+                <p>Contatti</p>
               </>
             </IconContext.Provider>
             <button
@@ -111,7 +106,7 @@ export default function Home() {
                 window.location.href = "/Contacts";
               }}
             >
-              Find Out More
+              SCOPRI DI PIÙ
             </button>
           </div>
         </div>
@@ -127,7 +122,7 @@ export default function Home() {
                     window.location.href = "/Location";
                   }}
                 />
-                <p>Location </p>
+                <p>Posizione </p>
               </>
             </IconContext.Provider>
             <button
@@ -137,7 +132,7 @@ export default function Home() {
                 window.location.href = "/Location";
               }}
             >
-              Find Out More
+              SCOPRI DI PIÙ
             </button>
           </div>
         </div>

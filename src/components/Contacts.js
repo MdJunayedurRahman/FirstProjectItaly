@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import styled from "styled-components";
 
 const Contact = () => {
   const form = useRef();
@@ -27,84 +26,70 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <div class="info">
-        <div class="infoHeader">Info/Bio</div>
-        Mr Pathan Sas Via del Pilastro 15-6, 40127 Bologna (Bologna) Telephone:
-        +39 3292121210 VAT number: 02823441205 NETWORK: 148895.reteimprese.org
-        SECTOR: Ecology and Thermotechnics CATEGORY: Cleaning Companies Cookie
-        Preferences
+    <div className="container-fluid d-flex justify-content-center align-items-center flex-column">
+      <div className="w-full md:w-screen flex flex-col items-center gap-10 relative md:mb-20">
+        <div className="info p-4 md:p-0 text-center">
+          <strong>TAYESHA di Rahman Tarequr</strong>
+          <br />
+          <b>Sede Legale e Operativa:</b> Viale G. Marconi 15 - 40050 Loiano
+          (BO)
+          <br />
+          <strong>Cell./WhatsApp: </strong> 3294123984
+          <br />
+          <strong>Email:</strong>
+          <br />
+          <strong>Partita IVA:</strong> 03813561200
+          <br />
+        </div>
       </div>
 
-      <StyledContactForm>
+      <div className="container mt-4">
         <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="user_name" />
-          <label>Email</label>
-          <input type="email" name="user_email" />
-          <label>Phone</label>
-          <input type="phone" name="user_phone" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="INVIA" />
+          <div className="mb-3 text-center">
+            <label className="form-label">Nominativo</label>
+            <input type="text" className="form-control" name="user_name" />
+          </div>
+          <div className="mb-3 text-center">
+            <label className="form-label">Email</label>
+            <input type="email" className="form-control" name="user_email" />
+          </div>
+          <div className="mb-3 text-center">
+            <label className="form-label">Telefono</label>
+            <input type="tel" className="form-control" name="user_phone" />
+          </div>
+          <div className="mb-3 text-center">
+            <label className="form-label">Oggetto</label>
+            <input type="subject" className="form-control" name="subject" />
+          </div>
+          <div className="mb-3 text-center">
+            <label className="form-label">Messaggio</label>
+            <textarea
+              className="form-control"
+              name="message"
+              style={{ height: "100px" }}
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="btn btn-primary"
+            style={{
+              backgroundColor: "rgb(249, 105, 14)",
+              border: "none",
+              width: "100%", // Full width on mobile
+              padding: "10px",
+              fontSize: "20px",
+              fontWeight: "bold",
+              marginBottom: "20px",
+              display: "block",
+            }}
+          >
+            INVIA
+          </button>
         </form>
-      </StyledContactForm>
-    </>
+      </div>
+      <div className="container mt-5"></div>
+    </div>
   );
 };
 
 export default Contact;
-
-// Styles
-const StyledContactForm = styled.div`
-  width: 400px;
-
-  form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-    font-size: 16px;
-
-    input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-
-    textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-
-    label {
-      margin-top: 1rem;
-    }
-
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      background: rgb(249, 105, 14);
-      color: white;
-      border: none;
-    }
-  }
-`;
