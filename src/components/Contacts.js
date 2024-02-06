@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 
-
 const Contact = () => {
   const form = useRef();
 
@@ -29,35 +28,28 @@ const Contact = () => {
 
   return (
     <>
-   <div class='info'>
-          <div class='infoHeader'>
-            Info/Bio
-          </div>
-    Mr Pathan Sas
-    Via del Pilastro 15-6, 40127 Bologna (Bologna)
-    Telephone: +39 3292121210
-    VAT number: 02823441205
-    NETWORK: 148895.reteimprese.org
-    SECTOR: Ecology and Thermotechnics
-    CATEGORY: Cleaning Companies
-    Cookie Preferences
-          </div> 
-    
-    <StyledContactForm>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Phone</label>
-        <input type="phone" name="user_phone" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
-    </StyledContactForm>
+      <div class="info">
+        <div class="infoHeader">Info/Bio</div>
+        Mr Pathan Sas Via del Pilastro 15-6, 40127 Bologna (Bologna) Telephone:
+        +39 3292121210 VAT number: 02823441205 NETWORK: 148895.reteimprese.org
+        SECTOR: Ecology and Thermotechnics CATEGORY: Cleaning Companies Cookie
+        Preferences
+      </div>
+
+      <StyledContactForm>
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Phone</label>
+          <input type="phone" name="user_phone" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="INVIA" />
+        </form>
+      </StyledContactForm>
     </>
-    
   );
 };
 

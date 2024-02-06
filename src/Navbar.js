@@ -41,17 +41,17 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link fs-5 fw-bold text-white" to="/About">
-                About
+                Chi Siamo
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link fs-5 fw-bold text-white" to="/Contacts">
-                Contacts
+                Contatti
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link fs-5 fw-bold text-white" to="/Location">
-                Location
+                Posizione
               </Link>
             </li>
           </ul>
