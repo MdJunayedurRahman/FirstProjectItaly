@@ -36,7 +36,7 @@ const Contact = () => {
           <br />
           <strong>Cell./WhatsApp: </strong> 3294123984
           <br />
-          <strong>Email:</strong>
+          <strong>Email:</strong> r.tarequr33@gmail.com
           <br />
           <strong>Partita IVA:</strong> 03813561200
           <br />

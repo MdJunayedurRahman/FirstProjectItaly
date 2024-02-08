@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="containerf">
         <div className="row">
           <div className="col-md-6 text-md-start text-center align-self-center">
-            <p className="mb-0">&copy; 2024 TAYESHA di Rahman Tarequr.</p>
-
-            <p className="mb-0">All rights reserved.</p>
+            <p className="mb-0">
+              TAYESHA di Rahman Tarequr | P.IVA 03813561200
+            </p>
           </div>
 
           <div className="col-md-6 text-md-end text-center align-self-center">
