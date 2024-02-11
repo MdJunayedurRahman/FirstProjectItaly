@@ -49,18 +49,24 @@ const Contact = () => {
             <label className="form-label">Nominativo</label>
             <input type="text" className="form-control" name="user_name" />
           </div>
+
           <div className="mb-3 text-center">
             <label className="form-label">Email</label>
             <input type="email" className="form-control" name="user_email" />
           </div>
+
           <div className="mb-3 text-center">
             <label className="form-label">Telefono</label>
             <input type="tel" className="form-control" name="user_phone" />
           </div>
+
           <div className="mb-3 text-center">
             <label className="form-label">Oggetto</label>
-            <input type="subject" className="form-control" name="subject" />
+            <input type="subject" className="form-control" name="user_subject" />
+
+           
           </div>
+
           <div className="mb-3 text-center">
             <label className="form-label">Messaggio</label>
             <textarea
@@ -69,6 +75,7 @@ const Contact = () => {
               style={{ height: "100px" }}
             ></textarea>
           </div>
+
           <button
             type="submit"
             className="btn btn-primary"
