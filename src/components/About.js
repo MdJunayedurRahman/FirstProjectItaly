@@ -18,7 +18,7 @@ export default function About() {
             style={{
               marginTop: "20px",
               marginBottom: "30px",
-              fontSize: "25px",
+              fontSize: "20px",
               fontWeight: "bold",
               textAlign: "left",
               marginLeft: "1px",
