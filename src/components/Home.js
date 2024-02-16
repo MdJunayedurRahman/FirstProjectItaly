@@ -1,6 +1,7 @@
 import React from "react";
 import { FaEnvelope, FaFont, FaSearchLocation } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const boxStyle = {
@@ -58,6 +59,7 @@ export default function Home() {
         <div className="text-success">Chiamaci ora</div>
         <div className="text-success">RAHMAN TAREQUR</div>
       </div>
+
       <div className="row" style={{ marginBottom: "20px" }}>
         <div className="col-lg-4 col-md-6 mb-3">
           <div className="bg-success" style={boxStyle}>
@@ -65,23 +67,16 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaFont
-                  onClick={() => {
-                    window.location.href = "/About";
-                  }}
-                />
+                <FaFont />
                 <p>Chi Siamo</p>
               </>
             </IconContext.Provider>
-            <button
+            <Link
+              to="/About"
               className="btn btn-outline-dark text-white my-2 my-sm-0"
-              type="submit"
-              onClick={() => {
-                window.location.href = "/About";
-              }}
             >
               SCOPRI DI PIÙ
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -91,23 +86,16 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaEnvelope
-                  onClick={() => {
-                    window.location.href = "/Contacts";
-                  }}
-                />
+                <FaEnvelope />
                 <p>Contatti</p>
               </>
             </IconContext.Provider>
-            <button
+            <Link
+              to="/Contacts"
               className="btn btn-outline-dark text-white my-2 my-sm-0"
-              type="submit"
-              onClick={() => {
-                window.location.href = "/Contacts";
-              }}
             >
               SCOPRI DI PIÙ
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -117,23 +105,16 @@ export default function Home() {
               value={{ className: "shared-class", size: 70 }}
             >
               <>
-                <FaSearchLocation
-                  onClick={() => {
-                    window.location.href = "/Location";
-                  }}
-                />
+                <FaSearchLocation />
                 <p>Posizione </p>
               </>
             </IconContext.Provider>
-            <button
+            <Link
+              to="/Location"
               className="btn btn-outline-dark text-white my-2 my-sm-0"
-              type="submit"
-              onClick={() => {
-                window.location.href = "/Location";
-              }}
             >
               SCOPRI DI PIÙ
-            </button>
+            </Link>
           </div>
         </div>
       </div>
