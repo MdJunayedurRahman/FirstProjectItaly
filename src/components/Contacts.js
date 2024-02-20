@@ -9,10 +9,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_60h2myq",
-        "template_2dvgpgw",
+        "service_tv7xtcu",
+        "template_tlasnxe",
         form.current,
-        "jvitzhDlCUHUob1Y_"
+        "3wFI_YlhkCoKqUrQn"
       )
       .then(
         (result) => {
@@ -62,9 +62,11 @@ const Contact = () => {
 
           <div className="mb-3 text-center">
             <label className="form-label">Oggetto</label>
-            <input type="subject" className="form-control" name="user_subject" />
-
-           
+            <input
+              type="subject"
+              className="form-control"
+              name="user_subject"
+            />
           </div>
 
           <div className="mb-3 text-center">
