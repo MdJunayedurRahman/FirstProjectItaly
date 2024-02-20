@@ -17,10 +17,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
+          alert("Messaggio inviato con successo!");
         },
         (error) => {
           console.log(error.text);
+          alert("Si è verificato un errore, riprova più tardi.");
         }
       );
   };
